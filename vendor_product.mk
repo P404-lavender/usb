@@ -1,5 +1,5 @@
 # USB init scripts
-PRODUCT_PACKAGES += init.qcom.usb.rc init.qcom.usb.sh
+PRODUCT_PACKAGES +=  init.qcom.usb.sh
 
 # additional debugging on userdebug/eng builds
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
